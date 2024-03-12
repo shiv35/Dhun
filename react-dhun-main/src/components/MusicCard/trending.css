@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Trending{
+    display: flex;
+}
+
+.outer{
+    width: 13rem;
+    height: 18rem;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.8rem;
+    border-radius: 1.5rem;
+    border: 2px solid white;
+}
+
+.trendingnames{
+    flex: 3;
+}
+
+.song{
+    margin: auto;
+    height: 10rem;
+    width: 90%;
+    border-radius: 1.5rem;
+}
+
+.songname{
+    color: white;
+}
+
+.singername{
+    color: rgb(201, 201, 201);
+}
+
+.heading{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+.playbtn{
+    width: 2rem; 
+
+}
+.animi{
+    height: 2rem;
+    color: rgb(251, 252, 253);
+    background-color: rgb(42, 32, 87);
+    border-radius: 50%;
+    opacity: 0;
+}
+.outer:hover .animi{
+    transform: scale(1.1);
+    opacity: 1;
+   transition: all 0.5s;
+}
+.heart{
+  color: red;
+  width: 1.5rem;
+  height: 1.5rem; 
+}

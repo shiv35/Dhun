@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featured {
+    height: 50px;
+    width: 100vw;
+    border-radius: 20px;
+    background-color: black;
+    padding-top: 2%;
+    padding-top:2%;
+    display: flex;
+}
+.photof{
+    height: 96% ;
+        width: 20%;
+        background-color: aqua;
+        
+}
+

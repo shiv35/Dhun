@@ -1,0 +1,27 @@
+/* hide scrollbar  */
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+.aboutus h1{
+    padding-top: 8rem;
+    margin-bottom: 2rem;
+    font-family: 'Dancing Script';
+    font-size: 6rem;
+    text-align: center;
+}
+
+.aboutus .aboutuscontainer {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    background-image: url(Images/Gallerybg1.jpg);
+    background-size: cover;
+    background-position: center/c;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    padding-bottom: 5rem;
+    text-align: justify;
+}

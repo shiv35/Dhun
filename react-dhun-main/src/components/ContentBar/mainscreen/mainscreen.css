@@ -1,0 +1,30 @@
+.Artistlist{
+    height: 14rem;
+    background-color: rgb(199, 148, 247);
+    padding: 1%;
+}
+
+.mainscreencontainer{
+    background: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+/* .mainscreencontainer::before {
+    content: '';
+    position: absolute;
+    top: 2.4rem;
+    left: 18.5rem;
+    width: 79%;
+    height: 84%;
+    backdrop-filter: blur(5px);
+   
+    /* background-color: burlywood; */
+    /* Adjust the blur radius as per your preference */
+
+
+
+.favartist{
+    padding-bottom: 1.5rem;
+}

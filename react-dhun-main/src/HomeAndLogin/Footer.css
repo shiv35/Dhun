@@ -1,0 +1,58 @@
+
+#Contactus{
+    padding-top: 1rem;
+    background-color: rgb(205, 205, 205);
+  }
+  
+  #Contactus #logo{
+    width: 5rem;
+    display: block;
+    margin: auto;
+  }
+
+  #logo:hover { 
+    transform: scale(1.2);
+  }
+  
+  #Contactus p{
+    text-align: center;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  #Contactus div{
+    text-align: center;
+    font-family:'Ubuntu';
+    font-weight: bold;
+    font-size: 0.85rem;
+  }
+  
+  #Contactus img{
+    width: 1rem;
+    margin: 0.75rem 0.5rem;
+  }
+  
+  #Contactus .Social{
+    margin: auto;
+  }
+  
+  .Social img:hover{
+    transform: scale(1.5);
+  }
+  
+  #transition3 {
+    margin-top: 0.5rem;
+    width: 100vw;
+    height: 0.5rem;
+    background-image: linear-gradient(rgba(205, 205, 205, 1), rgba(80, 80, 80, 1));
+  }
+  
+  #copyright{
+    color: whitesmoke;
+    padding: 0.5rem;
+    background-color: rgb(80, 80, 80);
+  }
+   #copyright span{
+    text-decoration: underline;
+   }

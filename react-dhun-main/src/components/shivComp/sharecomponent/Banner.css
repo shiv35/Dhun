@@ -1,0 +1,88 @@
+
+.content {
+    width: 1100px;
+    height: 150px;
+    border:1px solid black;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+#subcontent
+{
+    margin-left: 10px;
+}
+.content h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.content p {
+    font-size: 11px;
+    font-weight: 400px;
+    color: #4c5262;
+    margin: 5px;
+
+}
+.content .buttons {
+    margin-top: 15px;
+}
+.content .buttons button{
+    width: 130px;
+    height: 30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+#check
+{
+    width: 130px;
+    height: 30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.content .buttons button:nth-child(2) {
+    background: none;
+    color: #36e2ec;
+}
+.content .buttons button:nth-child():hover {
+    background: #36e2ec;
+    color: #fff;
+}
+.currentsong{
+    display: flex;
+    margin-bottom: 2%;
+}
+#current,#imgcurrent {
+    width: 150px;
+    height: 150px;
+    margin-right: 3%;
+}
+#current_title{
+   font-size: 65px;
+   margin-bottom: 0;
+   font-weight: 900;
+   font-family:'Poppins', sans-serif;
+   text-overflow: ellipsis;
+}
+#current_subtitle{
+    font-size: 15px;
+    font-weight: 700;
+}
+#search_content{
+    display: flex;
+    height: 200%;
+    width: 950px;
+    z-index: -100;
+    flex-wrap: wrap;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    
+}

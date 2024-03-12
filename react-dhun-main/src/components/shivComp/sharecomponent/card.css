@@ -1,0 +1,13 @@
+.icon2
+{
+    margin-top: 10x;
+    margin-left: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.playicon
+{
+    height: 20px;
+    width:  20px;
+}

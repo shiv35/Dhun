@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+.main-side{
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   background-color: rgba(3, 5, 22);
+   
+}
+.nav_link{
+    display: flex;
+    flex-direction: column;
+}
+.nav_link span{
+    margin: 5% 0;
+    width: 80%;
+    
+    height: 2rem;
+    padding: 2% 6%;
+    border: 2px solid #ef4f7a ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+ .nav_link span:hover .lin{
+    /* background-color: #ef4f7a; */
+    color: rgba(3, 5, 22);
+
+}
+
+.nav_link span:hover {
+    background-color: #ef4f7a;
+
+
+}
+
+.greet{
+    font-size: 3.2rem;
+    line-height: 2.9rem;
+    color: #ef4f7a;
+    padding-bottom: 1rem;
+    font-family: 'Port Lligat Slab', serif;
+}
+
+.lin{
+text-decoration: none;
+display: flex;
+color: #ef4f7a;
+align-items: center;
+font-size: large;
+ font-weight: 500;
+}
+.nav_link .icon{
+   font-size: 1.6rem;
+   margin-right: 6%;
+}
+
+
+.recentlyplayed{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}

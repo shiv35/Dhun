@@ -1,0 +1,32 @@
+
+/* hide scrollbar  */
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+.gallery h1{
+    padding-top: 8rem;
+    margin-bottom: 2rem;
+    font-family: 'Dancing Script';
+    font-size: 6rem;
+    text-align: center;
+}
+
+.gallery .gallerycontainer {
+    background-image: url(Images/Gallerybg1.jpg);
+    background-size: cover;
+    background-position: center/c;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.gallery .gallerycontainer img {
+    margin: 1rem;
+    height: 20rem;
+    transition: transform 1s;
+}
+
+.gallery .gallerycontainer img:hover {
+    transform: scale(1.25);
+}

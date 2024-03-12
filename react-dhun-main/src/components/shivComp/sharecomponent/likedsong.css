@@ -1,0 +1,46 @@
+.LikedSong {
+    list-style-type: none;
+    position: relative;
+    padding: 5px 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    background-color: none;
+}
+.LikedSong:hover {
+    background: rgb(105, 105, 105, 0.1);
+}
+.LikedSong span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4c5262;
+}
+.LikedSong img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+
+}
+.LikedSong h5 {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 15px;
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.LikedSong h5 .subtitle {
+    font-size: 11px;
+    color:#4c5262;
+}
+.LikedSong .bi {
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+    color: #4c5262  ;
+
+}

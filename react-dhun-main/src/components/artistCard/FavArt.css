@@ -1,0 +1,9 @@
+.favartcard{
+    background:rgba(0,0,0, 0.5);
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+.favartcardtext{
+    color: whitesmoke;
+}
